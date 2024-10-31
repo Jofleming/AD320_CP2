@@ -1,0 +1,85 @@
+/* Basic reset */
+
+/*
+* Name: Jordan Fleming
+* Date: 10/29/2024
+* CSS file for random user web page. 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light background color for the body */
+}
+
+header {
+    background: #35424a; /* Darker background for the header */
+    color: white; /* White text color for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #2c3e50; /* Different shade for the nav bar */
+    padding: 10px 0;
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none;
+    margin: 0 15px; /* Spacing between links */
+}
+
+nav button {
+    margin-left: 15px; /* Spacing between the button and the links */
+}
+
+main {
+    flex: 1; /* Allows main to grow and take up available space */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+footer {
+    background: #35424a; /* Same dark color as header */
+    color: white; /* White text for footer */
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2980b9; /* Bright blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+}
+
+.profile {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #35424a;
+    background: #ffffff; /* White background for profiles */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
